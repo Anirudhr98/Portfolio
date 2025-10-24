@@ -11,10 +11,10 @@ export default function Navbar() {
 
         {/* Links */}
         <nav className="flex items-center gap-8 text-base md:text-lg">
-          <a href="#about" className="muted hover:neon-hover transition-colors">About</a>
-          <a href="#skills" className="muted hover:neon-hover transition-colors">Skills</a>
-          <a href="#projects" className="muted hover:neon-hover transition-colors">Projects</a>
-          <a href="#contact" className="muted hover:neon-hover transition-colors">Contact</a>
+          <a href="#about" className=" hover:neon-hover transition-colors">About</a>
+          <a href="#skills" className=" hover:neon-hover transition-colors">Skills</a>
+          <a href="#projects" className=" hover:neon-hover transition-colors">Projects</a>
+          <a href="#contact" className=" hover:neon-hover transition-colors">Contact</a>
         </nav>
       </div>
     </header>
