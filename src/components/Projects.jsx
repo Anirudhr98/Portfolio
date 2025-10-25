@@ -13,9 +13,15 @@ const projects = [
   },
   {
     title: 'Food Delivery App',
-    desc: 'Full-stack MERN fodd delivery platform with restaurant owner dashboard and live order tracking.',
+    desc: 'Full-stack MERN food delivery platform with restaurant owner dashboard and live order tracking.',
     live: 'https://ar7-food-delivery.netlify.app',
     code: 'https://github.com/Anirudhr98'
+  },
+  {
+    title: 'Microservices Food Delivery System',
+    desc: 'Distributed architecture version of the food delivery app built with Node.js, Express, and RabbitMQ; includes restaurant, order, delivery and notification services with inter-service communication.',
+    live: '',
+    code: 'https://github.com/Anirudhr98/Restaurant-Microservices' // replace with repo link if separate
   },
   {
     title: 'Invoice Management System',
