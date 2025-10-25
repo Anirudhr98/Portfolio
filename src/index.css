@@ -47,7 +47,9 @@ body {
 a:hover { color: var(--link-hover); }
 
 /* neon accents */
-.neon-text { color: var(--neon); }
+.neon-text {
+  color: var(--neon-yellow);
+}
 .neon-border { border-color: rgba(124,92,255,0.18); }
 
 .btn-neon {
