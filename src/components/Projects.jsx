@@ -47,11 +47,6 @@ export default function Projects(){
             key={i}
             className="p-4 rounded-lg border border-white/6 hover:shadow-neon-lg transition-transform hover:-translate-y-1"
           >
-            <div className="flex items-center justify-between">
-              <h3 className="font-semibold neon-text">{p.title}</h3>
-              <div className="muted text-sm">Personal</div>
-            </div>
-
             <p className="mt-2 muted leading-relaxed">{p.desc}</p>
 
             <div className="mt-4 flex flex-wrap gap-3">
